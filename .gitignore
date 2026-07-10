@@ -1,0 +1,11 @@
+# НИКОГДА не коммить и не пересылать:
+.env
+tg_session*
+# рабочие артефакты (генерятся заново):
+img/
+palette.json
+palette.json.bak
+agent-palette.json
+agent_emoji.py
+index.html
+__pycache__/

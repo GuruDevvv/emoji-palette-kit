@@ -1,0 +1,2 @@
+# Всё остальное — стандартная библиотека Python (urllib, json, base64…).
+telethon>=1.36
