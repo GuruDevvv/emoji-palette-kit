@@ -1,5 +1,17 @@
 # 🎨 Emoji Palette Kit
 
+<img src=".github/cover.jpg" width="100%" alt="Emoji Palette. Custom Telegram emoji your agent can use.">
+
+**In English.** A curated palette of Telegram custom emoji for an AI agent. A custom emoji has no
+text name, only an ID, so an agent cannot type one, and the built-in alias often lies about what the
+picture shows. With this kit you switch on the emoji you want in a browser, a vision model writes
+down what each one means, and the result is `agent-palette.json`. The agent writes `:key:` in its
+text and the emoji is put in by ID before sending. It is one Python file; it needs Python 3.9+,
+Telethon, a Telegram API id and hash, and an OpenRouter key for the descriptions. The commands
+below are the same in any language; the step-by-step guide is in Russian.
+
+---
+
 Дай своему **ИИ-агенту** курируемую палитру кастомных эмодзи Telegram.
 
 Ты в удобном интерфейсе выбираешь, какие эмодзи из твоих наборов агент может использовать, —
